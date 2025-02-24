@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 81eb0b00d2301bf46bc6666023297025, type: 3}
-  m_Name: Tirion
+  m_Name: Jerry
   m_EditorClassIdentifier: 
-  name: Tirion
-  description: His light shall burn you!
-  artwork: {fileID: 21300000, guid: 25cef1bb73e99b346a44fba23bed55ea, type: 3}
-  manaCost: 6
-  attack: 6
-  health: 8
-  TheElement: 1
-  ElementImage: {fileID: 1864864566, guid: bb662a395c648424291cfd6b4907b3f5, type: 3}
+  name: Jerry
+  description: TheSlime
+  artwork: {fileID: 21300000, guid: bf4537fe5f802a0418c59621bb3b23bb, type: 3}
+  manaCost: 1
+  attack: 50
+  health: 999
+  TheElement: 3
+  ElementImage: {fileID: 550406472, guid: bb662a395c648424291cfd6b4907b3f5, type: 3}

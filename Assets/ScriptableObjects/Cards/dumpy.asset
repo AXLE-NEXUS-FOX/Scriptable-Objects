@@ -9,9 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 184c564d1abc448c8ac3fa50795cc3c7, type: 3}
-  m_Name: New Card Library
+  m_Script: {fileID: 11500000, guid: 81eb0b00d2301bf46bc6666023297025, type: 3}
+  m_Name: dumpy
   m_EditorClassIdentifier: 
-  allCards:
-  - {fileID: 11400000, guid: 034e737a592181443a3e5a2abb3a66a8, type: 2}
-  - {fileID: 11400000, guid: 22b68a17ca8c87545855f486daeecf6b, type: 2}
+  name: dumpy
+  description: 'a dumpter fire '
+  artwork: {fileID: 21300000, guid: ee29ca98901a5b9409d775f79492270e, type: 3}
+  manaCost: 2
+  attack: 1
+  health: 50

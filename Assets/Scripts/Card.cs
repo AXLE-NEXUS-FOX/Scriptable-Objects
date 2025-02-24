@@ -12,9 +12,21 @@ public class Card : ScriptableObject {
 
 	public int manaCost;
 	public int attack;
-	public int health;
+	public int health; 
+    public enum Element { Fire, Water, Earth, Life, Undead };
+    public Element TheElement;
+    private int ElementArrayNum;
+   [HideInInspector] public Sprite ElementImage;
+    
 
-	public void Print ()
+	private void Awake()
+	{
+        
+        
+
+       
+    }
+    public void Print ()
 	{
 		Debug.Log(name + ": " + description + " The card costs: " + manaCost);
 	}
